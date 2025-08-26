@@ -169,7 +169,7 @@ int main(int argc, char *argv[]){
 		offset = 0x80;
 	}
 	printf("Format detected: ");
-	if(memory_card_format = 0){
+	if(memory_card_format == 0){
 	printf("Raw PS1 Memory Card File\n\n");
 	}else{
 	printf("PSP Memory Card File\n\n");
