@@ -11,8 +11,26 @@ for(int i=0; i < 128; i+=2){
 				case 0x40:
 					printf(" ");
 					break;
+				case 0x43:
+					printf(",");
+					break;
+				case 0x44:
+					printf(".");
+					break;
+				case 0x45:
+					printf("");
+					break;
 				case 0x46:
 					printf(":");
+					break;
+				case 0x47:
+					printf(";");
+					break;
+				case 0x48:
+					printf("?");
+					break;
+				case 0x49:
+					printf("!");
 					break;
 				case 0x5e:
 					printf("/");
